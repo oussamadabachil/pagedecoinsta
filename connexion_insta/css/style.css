@@ -1,0 +1,162 @@
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif, cursive;
+        font: 1.6rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+        margin: 0;
+}
+
+h1,h2,h3,p,ul,ol,a,th,figure{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-weight: 400;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+fieldset>img{
+    width: 70%;
+    display: block;
+    margin: 1rem auto;
+}
+
+.verif_text{
+    display: none;
+}
+.verif_text_show{
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    color: red;
+}
+.mainwelcome{
+    padding: 1rem;
+    display: block;
+    margin: 0 auto;
+    width: 35rem;
+}
+
+fieldset{
+    border: .1rem solid #ccc;
+    
+
+}
+
+.button_block>li:first-child{
+
+}
+fieldset>form>*{
+    border: none;
+    border: .1rem solid #ccc;
+    display: block;
+    width: 100%;
+}
+
+fieldset>form>input{
+    background-color: rgb(250,250,250);
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+
+fieldset>form>input[type=submit]{
+    color: white;
+    display: block;
+    border: none;
+    background-color: rgb(83,149,233);
+}
+
+
+
+.grid_android_appstore>li>a>img{
+    width:100%;
+
+}
+
+.grid_android_appstore{
+    width: 70%;
+    margin: 1rem auto;
+    grid-gap:.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.button_block>li:first-child{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.button_block>li:last-child{
+    margin-top: .5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.download{
+
+    text-align: center;
+    padding: 1rem;
+}
+
+.subscribe{
+    padding: 1rem;
+
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: .1rem solid #ccc;
+}
+
+.mainauto{
+    width: 100%;
+}
+
+.welcome_div>img{
+    width: 20rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.separator_grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+
+.separator_grid>hr{
+    width: 100%;
+    text-align: center;
+
+}
+.separator_grid>p{
+    text-align: center;
+}
+
+
+.main_welcome{
+    width: 35rem;
+}
+
+@media screen and (max-width:50rem){
+   
+    
+    .mainwelcome{
+        padding: 1rem;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    
+}
