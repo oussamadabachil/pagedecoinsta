@@ -107,6 +107,7 @@ section>h1{
 .info_compte{
     text-align: center;
     width:100%;
+    line-height: 2rem;
     display: block;
     padding: 1rem;
     border: .1rem #ccc solid;
