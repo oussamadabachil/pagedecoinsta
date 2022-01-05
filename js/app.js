@@ -8,12 +8,13 @@ let mail_value = document.querySelector("#Mypwd");
 
 let verif_change_text = document.querySelector(".verif_text")
 
-let submmit = document.querySelector(".subconnect")
+let submmit_btn = document.querySelector(".subconnect")
 
 
-submmit.addEventListener("click",()=>{
+submmit_btn.addEventListener("click",()=>{
     alert(password_value.value)
     alert(mail_value.value)
+    confirm("hey")
 
 
     if((password_data==password_value.value)&&(user_data==mail_value.value)){
