@@ -7,7 +7,7 @@ html{
 body{
     font-family: sans-serif, cursive;
         font: 1.6rem;
-        background-color: #fafafa;
+        background-color: #fafafafa;
         margin: 0;
 
     }
@@ -24,6 +24,17 @@ h1,h2,h3,p,ul,ol,a,th,figure{
 *{
     box-sizing: border-box;
 }
+
+header>h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+
+    font-size: 1.5rem;
+    width: 100%;
+}
 fieldset>img{
     width: 70%;
     display: block;
@@ -34,9 +45,11 @@ fieldset>img{
     display: none;
 }
 .verif_text_show{
+    font-size: 1.3rem;
+
     display: block;
     text-align: center;
-    font-weight: 200;
+    font-weight: 500;
     color: red;
 }
 .mainwelcome{
@@ -73,7 +86,7 @@ fieldset>form>input[type=submit]{
     color: white;
     display: block;
     border: none;
-    background-color:  #3897f0;
+    background-color:  #30699f;
 }
 
 
@@ -135,7 +148,8 @@ fieldset>form>input[type=submit]{
 }
 
 .subscribe>p>a{
-    color: #3897f0;
+    color: #30699f;
+
 }
 
 .mainauto{

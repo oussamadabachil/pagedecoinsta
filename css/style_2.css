@@ -8,6 +8,7 @@ body{
     font-family: sans-serif, cursive;
         font: 1.6rem;
         margin: 0;
+        background-color: #fafafa;
 }
 
 h1,h2,h3,p,ul,ol,a,th,figure{
@@ -37,6 +38,16 @@ section>h1::before{
     margin: 1rem auto;
     width: 35rem;
     border: .1rem solid #ccc;
+}
+header>h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+
+    font-size: 1.5rem;
+    width: 100%;
 }
 
 
@@ -101,13 +112,13 @@ section>h1{
     section{
         margin: 0 auto;
         display: block;
-        width: 100%;
+        width:97%;
     }
     
 .welcome_div{
     display: block;
     margin: 0rem auto .5rem;
-    width: 100%;
+    width:97%;
     border: .1rem solid #ccc;
 }
 
@@ -123,7 +134,7 @@ section>h1{
 }
 .info_compte{
     text-align: center;
-    width:100%;
+    width:97%;
     line-height: 2rem;
     display: block;
     padding: 1rem;
