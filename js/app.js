@@ -15,7 +15,7 @@ submmit_btn.addEventListener("click",(e)=>{
 
 
     if((password_value.value.length>0)&&(mail_value.value.match(mail_expr))){
-        location.href = "../login_page.html"; 
+        location.href = "./login_page.html";
         verif_change_text.classList.remove("verif_text_show")
         localStorage.setItem('adressemail', mail_value.value);
 
