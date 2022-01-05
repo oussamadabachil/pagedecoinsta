@@ -48,11 +48,16 @@ section>h1::before{
 }
 
 .welcome_div>p{
+    font-size: 1.4rem;
     text-align: center;
     padding: 1rem;
     color: green;
 }
 
+.info_compte_texte{
+    font-size: 1.4rem;
+
+}
 
 section{
     position: relative;
