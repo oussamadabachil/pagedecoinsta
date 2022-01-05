@@ -7,10 +7,10 @@ html{
 body{
     font-family: sans-serif, cursive;
         font: 1.6rem;
-    background-repeat: no-repeat;
-    background-size: contain;
+        background-color: #fafafa;
         margin: 0;
-}
+
+    }
 
 h1,h2,h3,p,ul,ol,a,th,figure{
     text-decoration: none;
@@ -63,7 +63,7 @@ fieldset>form>*{
 }
 
 fieldset>form>input{
-    background-color: rgb(250,250,250);
+    background-color: #fafafa;
     line-height: 3rem;
     margin-top: 1rem;
 }
@@ -73,7 +73,7 @@ fieldset>form>input[type=submit]{
     color: white;
     display: block;
     border: none;
-    background-color: rgb(83,149,233);
+    background-color:  #3897f0;
 }
 
 
@@ -93,7 +93,23 @@ fieldset>form>input[type=submit]{
 
 .button_block>li:first-child{
     font-size: 1.2rem;
+    position: relative;
     text-align: center;
+}
+.button_block>li>a{
+    color:rgb(79,102,165);
+
+}
+
+.button_block>li:first-child::before{
+    content: '';
+    position: absolute;
+    width: 1.4rem;
+    left: 6rem;
+    height: 1.4rem;
+    background-image: url(../asset/fblogo.png);
+    background-size: contain;
+
 }
 
 .button_block>li:last-child{
@@ -102,12 +118,12 @@ fieldset>form>input[type=submit]{
     text-align: center;
 }
 
+
 .download{
 
     text-align: center;
     padding: 1rem;
 }
-
 .subscribe{
     padding: 1rem;
 
@@ -116,6 +132,10 @@ fieldset>form>input[type=submit]{
     font-size: 1.2rem;
     margin-top: 1rem;
     border: .1rem solid #ccc;
+}
+
+.subscribe>p>a{
+    color: #3897f0;
 }
 
 .mainauto{
@@ -141,6 +161,7 @@ fieldset>form>input[type=submit]{
 }
 .separator_grid>p{
     text-align: center;
+    color: rgba(0, 0, 0, 0.589)
 }
 
 
