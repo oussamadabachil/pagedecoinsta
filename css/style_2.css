@@ -53,6 +53,7 @@ section>h1::before{
     color: green;
 }
 
+
 section{
     position: relative;
     margin: 0 auto;
@@ -103,6 +104,17 @@ section>h1{
     margin: 0rem auto .5rem;
     width: 100%;
     border: .1rem solid #ccc;
+}
+
+.welcome_div>p{
+    text-align: center;
+    padding: 1rem;
+    color: green;
+    font-size: 1.4rem;
+}
+.info_compte_texte{
+    font-size: 1.2rem;
+
 }
 .info_compte{
     text-align: center;
