@@ -1,10 +1,9 @@
 document.addEventListener("DOMContentLoaded",()=>{
-let user_data = "a";
-let password_data = "a";
+    const mail_expr =
+    /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
-
-let password_value = document.querySelector("#Mymail");
-let mail_value = document.querySelector("#Mypwd");
+let mail_value = document.querySelector("#Mymail");
+let password_value = document.querySelector("#Mypwd");
 
 let verif_change_text = document.querySelector(".verif_text")
 
@@ -15,10 +14,11 @@ submmit_btn.addEventListener("click",(e)=>{
     e.preventDefault();
 
 
-    if((password_data==password_value.value)&&(user_data==mail_value.value)){
+    if((password_value.value.length>0)&&(mail_value.value.match(mail_expr))){
         location.href = "../login_page.html"; 
         verif_change_text.classList.remove("verif_text_show")
- 
+        localStorage.setItem('adressemail', mail_value.value);
+
     }else
         {       
 

@@ -102,14 +102,14 @@ fieldset>form>input[type=submit]{
 }
 
 .button_block>li:first-child::before{
-    content: '';
-    position: absolute;
-    width: 1.4rem;
-    left: 6rem;
-    height: 1.4rem;
-    background-image: url(../asset/fblogo.png);
-    background-size: contain;
-
+    background-image: url('../asset/fblogo.png');
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: -.25rem;
+    margin-right: .5rem;
+    width: 20px; 
+    height: 20px;
+    content:"";
 }
 
 .button_block>li:last-child{
@@ -149,12 +149,14 @@ fieldset>form>input[type=submit]{
 }
 
 .separator_grid{
+    margin: 1rem auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     width: 100%;
 }
 
 .separator_grid>hr{
+
     width: 100%;
     text-align: center;
 
