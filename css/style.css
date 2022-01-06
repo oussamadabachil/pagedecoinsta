@@ -173,7 +173,9 @@ fieldset>form>input[type=submit]{
 }
 
 .separator_grid>hr{
-
+    border: .05rem solid #ccc;
+    height: .1rem;
+    background-color: #ccc;
     width: 100%;
     text-align: center;
 

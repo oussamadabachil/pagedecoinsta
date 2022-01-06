@@ -21,9 +21,8 @@
         <img class="" src="./svg/logo_instagram.svg" alt="logo instagram">
         <p class="verif_text">Mail ou mot de passe incorrect</p>
 
-        <form name="inscritpion" action=""
-method="get">
-            <input name="email" id="Mymail" type="mail" placeholder="Insérer votre adresse mail">
+        <form name="inscritpion" action="./login_page.html" method="get">
+            <input name="email" id="Mymail" type="email" placeholder="Insérer votre adresse mail" autofocus aria-required="true">
             <input name="password" id="Mypwd" type="password" placeholder="Insérer votre mot de passe" class="pwd">
             <input type="submit" value="Se connecter" class="sub_connect">
         </form>
@@ -38,7 +37,7 @@ method="get">
             </ul>
 
     </fieldset>
-    <section class="subscribe"><p class="">Vous n'avez pas de compte? <a href="">Inscrivez-vous</a></p></section>
+    <div class="subscribe" aria-labelledby="inscription_button"><p id="inscription_button">Vous n'avez pas de compte? <a href="#">Inscrivez-vous</a></p></div>
     
     <p class="download">Télécharger l'application</p>
     <ul class="grid_android_appstore">

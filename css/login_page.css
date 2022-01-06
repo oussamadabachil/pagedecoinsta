@@ -108,6 +108,26 @@ section>h1{
     border: .1rem solid #000;
     width: 100%;
 }
+
+.grid_android_appstore>li>a>img{
+    width:100%;
+
+}
+
+.download{
+    padding-top: 1rem;
+
+    font-size: 1.4rem;
+    text-align: center;
+}
+.grid_android_appstore{
+    width: 20vw;
+    margin: 1rem auto;
+    grid-gap:.5rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
 /*
 @media screen and (max-width:50rem){
     section{
