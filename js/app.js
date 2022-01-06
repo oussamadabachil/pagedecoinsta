@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
             verif_change_text.classList.add("verif_text_show")
-            verif_change_text.innerText = "Votre adresse mail et votre mot de passe sont incorrects "
+            verif_change_text.innerText = "Votre adresse mail et votre mot de passe sont incorrects"
 
         }
 
