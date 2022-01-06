@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",()=>{
-    const mail_expr =
+const  mail_expr =
     /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
 
 let mail_value = document.querySelector("#Mymail");
