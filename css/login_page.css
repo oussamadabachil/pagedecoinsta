@@ -19,7 +19,7 @@ h1,h2,h3,p,ul,ol,a,th,figure{
     font-weight: 400;
 }
 section>h1::before{
-    background-image: url('../asset/ico.ico');
+    background-image: url('../asset/instatransappent.png');
     background-size: 20px 20px;
     display: inline-block;
     vertical-align: -.25rem;
