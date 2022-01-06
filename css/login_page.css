@@ -5,8 +5,7 @@ html{
 }
 
 body{
-    font-family: sans-serif, cursive;
-        font: 1.6rem;
+        font: 1.6rem sans-serif, cursive;;
         margin: 0;
         background-color: #fafafa;
 }
@@ -18,14 +17,14 @@ h1,h2,h3,p,ul,ol,a,th,figure{
     padding: 0;
     font-weight: 400;
 }
-section>h1::before{
+section>h2::before{
     background-image: url('../asset/instatransappent.png');
-    background-size: 20px 20px;
+    background-size: 25px 25px;
     display: inline-block;
     vertical-align: -.25rem;
     margin-right: .5rem;
-    width: 20px; 
-    height: 20px;
+    width: 25px; 
+    height: 25px;
     content:"";
 }
 
@@ -53,7 +52,9 @@ header>h1{
 
 
 .welcome_div>img{
-    width: 70%;
+    padding: 1rem;
+
+    width: 50%;
     display: block;
     margin: 1rem auto 0rem;
 }
@@ -78,13 +79,13 @@ section{
 
 }
 
-section>h1{
+section>h2{
     position: relative;
     color: white;
     font-weight: 100;
     text-align: center;
-    line-height: 4rem;
-    background-color: rgb(0, 0, 0);
+    line-height: 5rem;
+    background-color: rgb(35, 35, 35);
 }
 .info_compte{
     text-align: center;

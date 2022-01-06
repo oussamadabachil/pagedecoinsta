@@ -5,12 +5,11 @@ html{
 }
 
 body{
-    font-family: sans-serif, cursive;
-        font: 1.6rem;
+
+        font: 1.6rem sans-serif, cursive;
         background-color: var(--body-color);
         margin: 0;
-
-    }
+}
 
 h1,h2,h3,p,ul,ol,a,th,figure{
     text-decoration: none;
@@ -42,7 +41,8 @@ header>h1{
     width: 100%;
 }
 .fieldset>img{
-    width: 70%;
+    padding: 1rem;
+    width: 50%;
     display: block;
     margin: 1rem auto;
 }
@@ -60,10 +60,10 @@ header>h1{
     color: var(--warining-color);
 }
 .mainwelcome{
-    padding: 1rem;
+    padding: 2rem;
     display: block;
     margin: 0 auto;
-    width: 35rem;
+    max-width: 40rem;
 }
 
 .fieldset{
@@ -81,6 +81,7 @@ header>h1{
 }
 
 .fieldset>form>input{
+    line-height: 3.5rem;
     padding-left: .5rem;
     background-color: var(--body-color);
     line-height: 3rem;
@@ -92,6 +93,8 @@ header>h1{
     color: rgb(255, 255, 255);
     display: block;
     border: none;
+    line-height: 3.5rem;
+    font-size: 1.5rem;
     background-color:  var(--button-submit-color);
     cursor: pointer;
 }
@@ -146,8 +149,8 @@ header>h1{
     padding: 1rem;
 }
 .subscribe{
-    padding: 1rem;
 
+    padding: 1rem;
     width: 100%;
     text-align: center;
     font-size: 1.2rem;
@@ -155,12 +158,13 @@ header>h1{
     border: .1rem solid var(--border-color);
 }
 .subscribe>h2{
-    font-size: 1.2rem;
+    padding: .5rem;
+    font-size: 1.3rem;
     color: var(--button-submit);
 
 }
 .subscribe>h2>a{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: var(--button-submit);
 
 }
@@ -179,12 +183,12 @@ header>h1{
     margin: 1rem auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    width: 100%;
+    width: 90%;
 }
 
 .separator_grid>hr{
     border: .05rem solid #ccc;
-    height: .1rem;
+    height: .05rem;
     background-color: #ccc;
     width: 100%;
     text-align: center;
