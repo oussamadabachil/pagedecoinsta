@@ -105,9 +105,10 @@ section>h1{
 
 .grid_insta_pictures>img{
     display: block;
+    border: .1rem solid #000;
     width: 100%;
 }
-
+/*
 @media screen and (max-width:50rem){
     section{
         margin: 0 auto;
@@ -142,4 +143,4 @@ section>h1{
     margin: 0 auto .5rem;
 }
 
-}
+}*/

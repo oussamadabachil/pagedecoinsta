@@ -7,7 +7,7 @@ html{
 body{
     font-family: sans-serif, cursive;
         font: 1.6rem;
-        background-color: #fafafafa;
+        background-color: var(--body-color);
         margin: 0;
 
     }
@@ -25,6 +25,12 @@ h1,h2,h3,p,ul,ol,a,th,figure{
     box-sizing: border-box;
 }
 
+:root {
+    --body-color: #fafafa;
+    --warining-color: rgb(255, 0, 0);
+    --border-color:#ccc;
+    --button-submit-color: #30699f;
+  }
 header>h1{
     text-align: center;
     padding-top: 2rem;
@@ -50,7 +56,7 @@ fieldset>img{
     display: block;
     text-align: center;
     font-weight: 500;
-    color: red;
+    color: var(--warining-color);
 }
 .mainwelcome{
     padding: 1rem;
@@ -60,33 +66,30 @@ fieldset>img{
 }
 
 fieldset{
-    border: .1rem solid #ccc;
+    border: .1rem solid var(--border-color);
     
 
 }
 
-.button_block>li:first-child{
-
-}
 fieldset>form>*{
     border: none;
-    border: .1rem solid #ccc;
+    border: .1rem solid var(--border-color);
     display: block;
     width: 100%;
 }
 
 fieldset>form>input{
-    background-color: #fafafa;
+    background-color: var(--body-color);
     line-height: 3rem;
     margin-top: 1rem;
 }
 
 
 fieldset>form>input[type=submit]{
-    color: white;
+    color: rgb(255, 255, 255);
     display: block;
     border: none;
-    background-color:  #30699f;
+    background-color:  var(--button-submit-color);
 }
 
 
@@ -144,11 +147,11 @@ fieldset>form>input[type=submit]{
     text-align: center;
     font-size: 1.2rem;
     margin-top: 1rem;
-    border: .1rem solid #ccc;
+    border: .1rem solid var(--border-color);
 }
 
 .subscribe>p>a{
-    color: #30699f;
+    color: var(--button-submit);
 
 }
 
@@ -157,7 +160,7 @@ fieldset>form>input[type=submit]{
 }
 
 .welcome_div>img{
-    width: 20rem;
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
@@ -185,6 +188,8 @@ fieldset>form>input[type=submit]{
     width: 35rem;
 }
 
+/*
+
 @media screen and (max-width:50rem){
    
     
@@ -196,4 +201,4 @@ fieldset>form>input[type=submit]{
     }
     
     
-}
+}*/
