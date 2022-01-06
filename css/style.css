@@ -41,7 +41,7 @@ header>h1{
     font-size: 1.5rem;
     width: 100%;
 }
-fieldset>img{
+.fieldset>img{
     width: 70%;
     display: block;
     margin: 1rem auto;
@@ -52,7 +52,8 @@ fieldset>img{
 }
 .verif_text_show{
     font-size: 1.3rem;
-
+    width: 90%;
+    margin: 0 auto;
     display: block;
     text-align: center;
     font-weight: 500;
@@ -65,20 +66,21 @@ fieldset>img{
     width: 35rem;
 }
 
-fieldset{
+.fieldset{
     border: .1rem solid var(--border-color);
     
 
 }
 
-fieldset>form>*{
+.fieldset>form>*{
     border: none;
     border: .1rem solid var(--border-color);
     display: block;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
 }
 
-fieldset>form>input{
+.fieldset>form>input{
     padding-left: .5rem;
     background-color: var(--body-color);
     line-height: 3rem;
@@ -86,11 +88,12 @@ fieldset>form>input{
 }
 
 
-fieldset>form>input[type=submit]{
+.fieldset>form>input[type=submit]{
     color: rgb(255, 255, 255);
     display: block;
     border: none;
     background-color:  var(--button-submit-color);
+    cursor: pointer;
 }
 
 
@@ -130,6 +133,7 @@ fieldset>form>input[type=submit]{
 }
 
 .button_block>li:last-child{
+    padding-bottom: 1rem;
     margin-top: .5rem;
     font-size: 1rem;
     text-align: center;
