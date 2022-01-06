@@ -149,8 +149,13 @@ fieldset>form>input[type=submit]{
     margin-top: 1rem;
     border: .1rem solid var(--border-color);
 }
+.subscribe>h2{
+    font-size: 1.2rem;
+    color: var(--button-submit);
 
-.subscribe>p>a{
+}
+.subscribe>h2>a{
+    font-size: 1.1rem;
     color: var(--button-submit);
 
 }
