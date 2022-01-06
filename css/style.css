@@ -79,6 +79,7 @@ fieldset>form>*{
 }
 
 fieldset>form>input{
+    padding-left: .5rem;
     background-color: var(--body-color);
     line-height: 3rem;
     margin-top: 1rem;
